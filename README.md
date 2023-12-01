@@ -3,6 +3,8 @@
 ## Project: OMSA Practicum Fall 2022 Project for Fortiphyd Logic: https://www.fortiphyd.com/
 Team: Krishna Kumar (kkumar80@gatech.edu), Sumit Machwe (smachwe3@gatech.edu)
 
+### **Please review the detailed report here: [Fortiphyd Logic - Anomaly Detection - Final Report.pdf](reports/Fortiphyd%20Logic%20-%20Anomaly%20Detection%20-%20Final%20Report.pdf)**
+
 ## Introduction
 Goal of this project is to devise generalizable anomaly detection in industrial control system sensor data. Fortiphyd Logic is a cybersecurity startup firm that specializes in fortifying industrial networks from malicious cyber attacks.
 According to the paper1 written by David Fromby (Fortiphyd Logic) most of the industrial IoT device infrastructure (programmable control logic devices) is vulnerable to cyber-attacks and may result in massive economic losses.
