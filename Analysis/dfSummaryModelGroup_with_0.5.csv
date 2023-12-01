@@ -1,0 +1,7 @@
+,Model_Group,Total_Count_of_Actual_Attacks,Total_Count_of_Identified_Attacks,Mean Of PropensityOfAttack (In Seconds),Identified_Attack(in %)
+0,histogram,253810,176998,451.88,69.74
+1,iforest,304572,194666,215.38,63.91
+2,knn,253810,68174,784.25,26.86
+3,lof,253810,32122,1423.04,12.66
+4,mcd,253810,135462,488.98,53.37
+5,svm,101524,91996,43.82,90.62
