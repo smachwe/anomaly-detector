@@ -21,7 +21,7 @@ In pursuit of such an approach, we discovered ‘pycaret’ library which organi
 # Project Structure
 
 * **Analysis** : Contains csv files representing summary and detail level performance metrics of individual models and model groups. 
-* **EDA** :  Please refer to Jupyter Notebook `SWAT_Analysis_Full_Data_EDA.ipynb` for Exploratory Data Analysis.
+* **EDA** :  Please refer to Jupyter Notebook [SWAT_Analysis_Full_Data_EDA.ipynb](EDA/SWAT_Analysis_Full_Data_EDA.ipynb) for Exploratory Data Analysis.
   * _Plots_ : Contains plots for: 
     * heatmap across all features
     * Feature (continuous variables) data distribution.
@@ -32,8 +32,8 @@ In pursuit of such an approach, we discovered ‘pycaret’ library which organi
   * `% of identified attack` and `propensity of attacks` for model groups across all attackIds.
 
 * **notebook** _(Note: These notebooks are for SWaT Dec2015 data)_
-  * `NormalAndAttackDataPickling.ipynb`: This notebook reads raw data (normal and attack). Does data cleansing and persist `pickle` file for further analysis and modeling.
-  * `anomaly_detection_SWaT_Dec2015_sigma_0.5.ipynb` and `anomaly_detection_SWaT_Dec2015_sigma_1_0.ipynb`: This is main notebook for Anomaly Detection and does the following: 
+  * [Normal and Attack Data Pickling.ipynb](notebook/NormalAndAttackDataPickling.ipynb) : This notebook reads raw data (normal and attack). Does data cleansing and persist `pickle` file for further analysis and modeling.
+  * [anomaly_detection_SWaT_Dec2015_sigma_0.5.ipynb](notebook/anomaly_detection_SWaT_Dec2015_sigma_0.5.ipynb) and [anomaly_detection_SWaT_Dec2015_sigma_1_0.ipynb](notebook/anomaly_detection_SWaT_Dec2015_sigma_1_0.ipynb) : These are the main notebooks for Anomaly Detection and does the following: 
     * Read Normal and attack pickle data.
     * Prepare the data for modeling by partition across sub-systems.
     * Train models using `pycaret` across all 6 sub-systems.
