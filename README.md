@@ -13,7 +13,8 @@ For this project, we analyze the sensor data from a scaled-down version of an in
 ## Approach
 Developing a generic anomaly detection process is hard. Unfortunately, one model fits all does not apply, especially when we do not want to incorporate domain knowledge about the dataset. We can however develop a framework that can be applied to other use cases with reasonably minimal changes. The approach we took required not to delve into the physics (or chemistry) of the dataset, but rather identify dependent variables that can be used to describe normal state behavior over time and which can be used in building unsupervised learning model.
 In pursuit of such an approach, we discovered ‘pycaret’ library which organizes various Anomaly Detection algorithms. Under the hood, it uses ‘PyOD’ open-source library.
-Please review the detailed report here: [Link Text](reports/Fortiphyd%20Logic%20-%20Anomaly%20Detection%20-%20Final%20Report.pdf)
+
+**Please review the detailed report here: [Fortiphyd Logic - Anomaly Detection - Final Report.pdf](reports/Fortiphyd%20Logic%20-%20Anomaly%20Detection%20-%20Final%20Report.pdf)**
 
 # Project Structure
 
